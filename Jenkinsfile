@@ -21,7 +21,7 @@ pipeline {
       
         stage('terraform init') {
             steps {
-                
+
                 sh 'terraform --version'
                 sh 'cd /home/kp01/test/Aug/'
                 sh 'terraform init'
@@ -30,15 +30,16 @@ pipeline {
         }
         stage('terraform plan') {
             steps {
-                sh 'cd /home/kp01/test/Aug'
-                sh 'terraform plan -out=tfplan -input=false'
-                sh 'echo \$PWD'
+                
+                sh 'terraform plan'
+                sh "echo \$PWD"
             }
         }
         stage('terraform apply') {
             steps {
                 sh 'cd /home/kp01/test/Aug'
                 sh 'terraform apply'
+                sh 'touch *******'
             }
         }
         stage('terraform ended') {
