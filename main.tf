@@ -5,8 +5,8 @@ client_secret="0joJRCNWP=+B.e@nH4xsDE27=CSv+58M"
 tenant_id="154a555f-9dde-4aed-8873-eca8e68b38df"
 }
 
-resource "azurerm_resource_group" "kp_gp01" {
-  name     = "kp_gp01"
+resource "azurerm_resource_group" "kp_gp" {
+  name     = "kp_gp"
   location = "eastus"
 }
 resource "azurerm_snapshot" "kp_gp" {
