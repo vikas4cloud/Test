@@ -24,7 +24,7 @@ variable "client_secret" {
 
 variable "resource_group_name" {
  description = "The name of resource group "
- default     = "welcome"
+ default     = "kp_gp"
 }
 
 variable "location" {
@@ -38,16 +38,6 @@ ariable "azurerm_snapshot_name" {
  
  description = "The name of snapshot-os-disk name "
  default     = "sanpshot-os-disk"
-}
-
-variable "location" {
- description = "Location "
- default     = "eastus"
-}
-variable "resource_group_name" {
- 
- description = "The name of resource group "
- default     = "kp_gp"
 }
 
 variable "create_option" {
