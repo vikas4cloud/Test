@@ -24,7 +24,7 @@ variable "client_secret" {
 
 variable "resource_group_name" {
  description = "The name of resource group "
- default     = "rg"
+ default     = "welcome"
 }
 
 variable "location" {
