@@ -5,7 +5,7 @@ provider "azurerm" {
   client_secret   = "${var.client_secret}"
 }
 
-resource "azurerm_resource_group" "rg" {
+resource "azurerm_resource_group" "kp_gp" {
  name     = "${var.resource_group_name}"
  location = "${var.location}"
 }
