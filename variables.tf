@@ -1,54 +1,35 @@
 variable "subscription_id" {
-  type        = "string"
   description = "Subscription id"
+  default = "3354308b-6548-4749-aac2-6b4cfbf2e6ed"
 }
 
 variable "tenant_id" {
-  type        = "string"
+  
   description = "Tenant id"
+  default     = "154a555f-9dde-4aed-8873-eca8e68b38df"
 }
 
 variable "client_id" {
-  type        = "string"
   description = "Client id"
+  default     = "35d39492-2fe9-4ca9-aada-dbc3b879ab80" 
 }
 
 variable "client_secret" {
-  type        = "string"
+ 
   description = "Client secret"
+  default     = "0joJRCNWP=+B.e@nH4xsDE27=CSv+58M"
 }
 
 #resource group
 
 variable "resource_group_name" {
- type        = "kp_gp"
  description = "The name of resource group "
+ default     = "kp_gp"
 }
 
 variable "location" {
- type        = "string"
+
  description = "Location "
+ default     = "eastus"
 }
 
-#snapshot-os-disk
-
-variable "azurerm_snapshot_name" {
- type        = "string"
- description = "The name of snapshot-os-disk name "
-}
-
-variable "location" {
- type        = "string"
- description = "Location "
-}
-variable "resource_group_name" {
- type        = "string"
- description = "The name of resource group "
-}
-
-variable "create_option" {
-  default = "Copy"
-}
-variable "source_uri" {
-  default = "/subscriptions/59566ed9-5683-4f3e-9064-c7edbfc550ed/resourceGroups/KP_GP/providers/Microsoft.Compute/disks/vm02_disk1_97f778d2dae942f18e68713444645128"
-}
