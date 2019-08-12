@@ -20,8 +20,8 @@ variable "client_secret" {
 
 #resource group
 
-variable "resource_group_name.*" {
- type        = "string"
+variable "resource_group_name" {
+ type        = "kp_gp"
  description = "The name of resource group "
 }
 
