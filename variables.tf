@@ -1,7 +1,4 @@
-variable "subscription_id" {
-  description = "Subscription id"
-  default = "3354308b-6548-4749-aac2-6b4cfbf2e6ed"
-}
+variable "subscription_id" {}
 
 variable "tenant_id" {
   
