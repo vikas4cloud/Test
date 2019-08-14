@@ -8,6 +8,7 @@ module "snapshot" {
   location="eastus"
 
   snapshot_name="snapshot_kumar"
+  snapshot_name="snapshot_kumar001"
   create_option="Copy"
   source_uri="subscriptions/3354308b-6548-4749-aac2-6b4cfbf2e6ed/resourceGroups/KP_GP/providers/Microsoft.Compute/disks/VM01_disk1_589d699c52ad4851ba177868ca5449c8"
 }
