@@ -12,6 +12,7 @@ module "snapshot" {
   source_uri="subscriptions/3354308b-6548-4749-aac2-6b4cfbf2e6ed/resourceGroups/KP_GP/providers/Microsoft.Compute/disks/VM01_disk1_589d699c52ad4851ba177868ca5449c8"
   
   snapshot_name="snapshot_vm02"
+  create_option="Copy"
   source_uri="subscriptions/3354308b-6548-4749-aac2-6b4cfbf2e6ed/resourceGroups/KP_GP/providers/Microsoft.Compute/disks/VM02_disk1_9653d3115c9f4de4afa22d95d056daf3"
   
 }
