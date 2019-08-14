@@ -13,7 +13,7 @@ module "snapshot" {
   
 }
 # 2nd snashot
- module "snapshot" {
+ module "snapshot01" {
   source = "./Snapshot"
   subscription_id="3354308b-6548-4749-aac2-6b4cfbf2e6ed"
   client_id="35d39492-2fe9-4ca9-aada-dbc3b879ab80"
