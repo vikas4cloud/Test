@@ -24,6 +24,6 @@ module "snapshot" {
 
   snapshot_name="snapshot_vm02"
   create_option="Copy"
-  source_uri="subscriptions/3354308b-6548-4749-aac2-6b4cfbf2e6ed/resourceGroups/KP_GP/providers/Microsoft.Compute/disks/VM02_disk1_9653d3115c9f4de4afa22d95d056daf3"
+  source_uri="/subscriptions/3354308b-6548-4749-aac2-6b4cfbf2e6ed/resourceGroups/KP_GP/providers/Microsoft.Compute/disks/VM02_disk1_5fd3cd45216f4eed98bf64622dec6e47"
   
 }
